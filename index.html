@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+		<title> Fractals </title>
+		<script type="text/javascript" src="allegro.js"></script>
+		<script type="text/javascript" src="V2.js"></script>
+		<script type="text/javascript" src="fractalar.js"></script>
+		<style type="text/css">
+			body {
+				background-color: #f2efe1;
+				text-align: center;
+			}
+			.main {
+				margin: 0 auto;
+				width: 1280px;
+			}
+			canvas {
+				background-color: white;
+			}
+			.controls {
+				text-align: left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main">
+			<canvas id="myCanvas"> </canvas>
+
+			<div class="controls">
+				<h2>Controls:</h2>
+				<ul>
+					<li>Left click line: bisect - add new node in the centre</li>
+					<li>Right click line: reflect</li>
+					<li>Left click node: drag to reposition node</li>
+					<li>Right click node: delete node</li>
+					<li>Up arrow: increase number of iterations</li>
+					<li>Down arrow: decrease number of iterations</li>
+					<li>'g' key: toggle between square and triangular grids</li>
+					<li>Space bar: toggle interface</li>
+				</ul>
+
+				For the sake of your pc, don't have a lot of nodes with a lot of iterations. Refresh if things get laggy. <br>
+
+				Things to make: the Dragon curve, Sierpinski triangle, the Koch curve, the Koch sweep, the Gosper curve, etc.
+			</div>
+		</div>
+	</body>
+
+</html>
